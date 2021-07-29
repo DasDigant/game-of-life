@@ -14,6 +14,7 @@ pipeline {
     }
     environment {
         CI_ENV = 'DEV'
+        
     }
     stages {
         stage('scm') {
